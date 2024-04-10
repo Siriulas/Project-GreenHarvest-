@@ -1,1 +1,1 @@
-inport "./js/menu.js";
+import "./js/menu.js";
