@@ -38,7 +38,6 @@
     border-radius: 30px;
     padding: 40px 20px;
     background: #fbfbfb;
-    /* max-width: 335px; */
     margin-bottom: 20px;
 }
 /* !======================= */
@@ -228,6 +227,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    align-items: center;
+
 }
 .social-link {
     font-weight: 600;
@@ -344,7 +345,6 @@
         line-height: 1;
     }
 
-
 }
 
 
@@ -392,6 +392,10 @@
 
     .social-list {
         max-width: 357px;
+    }
+
+    .slash {
+        font-size: 32px;
     }
 
 
