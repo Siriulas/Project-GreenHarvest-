@@ -18,12 +18,22 @@ body {
   overflow: hidden;
 }
 .container {
-  width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 .section {
   padding: 80px 0;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .section {
+    padding: 80px 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
