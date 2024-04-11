@@ -42,8 +42,8 @@
 }
 
 .reviews-image {
-    display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 24px;
 }
 
@@ -58,6 +58,7 @@
 }
 
 .reviews-list-text {
+    max-width: 288px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;

@@ -31,7 +31,7 @@
 }
 
 .menu-close {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   border: none;
@@ -68,7 +68,6 @@
 }
 
 .tree {
-  width: 114px;
   margin-bottom: 0;
 }
 
@@ -111,6 +110,12 @@
   color: rgba(122, 49, 69, 0.7);
 }
 
+@media screen and (min-width: 375px) {
+  .menu-close {
+    position: absolute;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .modal-menu {
     width: 351px;
@@ -123,19 +128,17 @@
     width: 40px;
     height: 40px;
   }
+  .menu-close-icon {
+    width: 40px;
+    height: 40px;
+  }
   .menu-nav {
     margin: 360px auto 0;
   }
-  .menu-nav-page {
-    width: 114px;
-  }
-  .two {
-    width: 119px;
+  .menu-nav-item {
+    width: 120px;
   }
 
-  .tree {
-    width: 123px;
-  }
   .menu-nav-link {
     font-size: 16px;
     line-height: 1.25;
