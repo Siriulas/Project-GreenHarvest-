@@ -1,0 +1,175 @@
+.how-it-works {
+}
+
+.how-top-wrap {
+	background-image: linear-gradient(#7a3145, #7a3145);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.how-img {
+	margin: 0 auto;
+	border-radius: 30px;
+}
+
+.how-bottom-wrap {
+	background-image: linear-gradient(#576f35, #576f35);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.how-title {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 1;
+	letter-spacing: -0.01em;
+	text-transform: uppercase;
+	color: #fbfbfb;
+	max-width: 335px;
+	margin-bottom: 20px;
+}
+
+.how-title span {
+	color: rgba(251, 251, 251, 0.3);
+}
+
+.how-text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.29;
+	color: #fbfbfb;
+	max-width: 335px;
+	margin-bottom: 40px;
+}
+
+.how-item {
+	padding: 12px 24px;
+	background: #fbfbfb;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.how-item:last-child {
+	margin-bottom: 0;
+}
+
+/* !!? */
+.how-num-border {
+	width: 52px;
+	height: 52px;
+	background-color: rgba(122, 49, 68, 0.3);
+	border-radius: 50%;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.how-num-wrap {
+	width: 42px;
+	height: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	background-color: #7a3145;
+	border-radius: 50%;
+	box-sizing: content-box;
+	/* !!? */
+	/* border: 5px solid rgba(122, 49, 68, 0.3); */
+}
+
+.how-item-num {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: -0.02em;
+	color: #fbfbfb;
+}
+
+.how-item-text {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.167;
+	letter-spacing: -0.02em;
+	color: rgba(20, 20, 20, 0.6);
+}
+
+.how-item-text span {
+	font-weight: 700;
+	color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+	.how-top-wrap {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.how-bottom-wrap {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.how-container {
+		width: 450px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.how-title {
+		font-size: 32px;
+		max-width: 450px;
+		margin-bottom: 25px;
+	}
+
+	.how-text {
+		font-size: 16px;
+		line-height: 1.25;
+		max-width: 450px;
+		margin-bottom: 50px;
+	}
+
+	.how-item-text {
+		font-size: 16px;
+		line-height: 1.25;
+	}
+
+}
+
+@media screen and (min-width: 1280px) {
+	.how-it-works {
+		display: flex;
+		justify-content: center;
+	}
+
+	.how-top-wrap {
+		width: calc(50% - 10px);
+		padding-right: 100px;
+		padding-left: 100px;
+		display: flex;
+		justify-content: end;
+	}
+
+	.how-bottom-wrap {
+		width: calc(50% + 10px);
+		padding-left: 100px;
+		padding-right: 100px;
+
+		display: flex;
+		justify-content: start;
+	}
+
+	.how-container {
+		width: 450px;
+		margin: 0;
+	}		
+
+	.how-img  {
+		margin-left: auto;
+		margin-right: 0;
+	}
+}
