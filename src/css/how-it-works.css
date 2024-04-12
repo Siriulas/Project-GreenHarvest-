@@ -188,5 +188,7 @@
 	.how-container {
 		width: 450px;
 		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}		
 }
