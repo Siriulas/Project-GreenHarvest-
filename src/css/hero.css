@@ -6,11 +6,10 @@
   margin-left: auto;
 }
 
-
 @media (min-width: 1280px) {
-.hero-container {
+  .hero-container {
     display: flex;
-}
+  }
 }
 
 .hero-text-wrap {
@@ -22,30 +21,28 @@
 }
 
 @media (min-width: 768px) {
-    .hero-text-wrap {
-            padding-top: 122px;
-            padding-bottom: 50px;
-            padding-right: 32px;
-            padding-left: 32px;
-            align-items: flex-start;
-            gap: 25px;
-}
+  .hero-text-wrap {
+    padding-top: 122px;
+    padding-bottom: 50px;
+    padding-right: 32px;
+    padding-left: 32px;
+    align-items: flex-start;
+    gap: 25px;
+  }
 }
 
 @media (min-width: 1280px) {
-    .hero-text-wrap {
-        padding-top: 238px;
-        padding-left: 100px;
-        padding-right: 28px;
-        align-items: center;
-        align-items: flex-start;
-        gap: 128px;
-
-    }
+  .hero-text-wrap {
+    padding-top: 238px;
+    padding-left: 100px;
+    padding-right: 28px;
+    align-items: center;
+    align-items: flex-start;
+    gap: 128px;
+  }
 }
 
 .hero-title {
-
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -57,18 +54,18 @@
 }
 
 @media (min-width: 768px) {
-    .hero-title {
-        font-size: 76px;
-        max-width: 704px;
-        margin-bottom: 0;
-    }
+  .hero-title {
+    font-size: 76px;
+    max-width: 704px;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 1280px) {
-    .hero-title {
-        font-size: 76px;
-        max-width: 502px;
-    }
+  .hero-title {
+    font-size: 76px;
+    max-width: 502px;
+  }
 }
 
 .hero-text {
@@ -89,14 +86,18 @@
 }
 
 @media (min-width: 1280px) {
-    .hero-text {
-        font-size: 16px;
-        max-width: 472px;
-    }
+  .hero-text {
+    font-size: 16px;
+    max-width: 472px;
+  }
 }
 
 .hero-imeage {
-  background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('.src/img/hero-mob-img.jpg');
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url('/img/hero-mob-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 370px;
@@ -107,13 +108,21 @@
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero-imeage {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('.src/img/hero-mob-img@2x.jpg');
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('/img/hero-mob-img@2x.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero-imeage {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('.src/img/hero-tab-img.jpg');
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('/img/hero-tab-img.jpg');
   }
 }
 
@@ -121,22 +130,26 @@
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-imeage {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('.src/img/hero-tab-img@2x.jpg');
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('/img/hero-tab-img@2x.jpg');
   }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-imeage {
-        background-image: url('../img/hero-desk-img.jpg');
-        min-width: 650px;
-        min-height: none;
-    }
+  .hero-imeage {
+    background-image: url('/img/hero-desk-img.jpg');
+    min-width: 650px;
+    min-height: none;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
-screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px) {
-    .hero-imeage {
-        background-image: url('../img/hero-desk-img@2x.jpg');
-    }
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .hero-imeage {
+    background-image: url('/img/hero-desk-img@2x.jpg');
+  }
 }
