@@ -1,10 +1,9 @@
-
 /* HERO */
 
-.hero{
-    background-color: #576f35;
-    margin-right: auto;
-    margin-left: auto;
+.hero {
+  background-color: #576f35;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -15,24 +14,11 @@
 }
 
 .hero-text-wrap {
-<<<<<<< Updated upstream
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
-    
- 
-   
-=======
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 40px;
->>>>>>> Stashed changes
 }
 
 @media (min-width: 768px) {
@@ -59,19 +45,7 @@
 }
 
 .hero-title {
-<<<<<<< Updated upstream
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    max-width: 355px;
-    margin-bottom: 20px;
-    
-=======
-  font-family: 'Inter Tight', sans-serif;
+
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -80,7 +54,6 @@
   color: #fbfbfb;
   max-width: 335px;
   margin-bottom: 20px;
->>>>>>> Stashed changes
 }
 
 @media (min-width: 768px) {
@@ -99,17 +72,6 @@
 }
 
 .hero-text {
-<<<<<<< Updated upstream
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.25;
-    color: #fbfbfb;
-    max-width: 355px;
-    margin-top: 0;
-    margin-bottom: 0;
-=======
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.25;
@@ -117,15 +79,14 @@
   max-width: 335px;
   margin-top: 0;
   margin-bottom: 0;
->>>>>>> Stashed changes
 }
 
 @media (min-width: 768px) {
-    .hero-text {
-        font-size: 16px;
-        max-width: 603px;
-    }
-} 
+  .hero-text {
+    font-size: 16px;
+    max-width: 603px;
+  }
+}
 
 @media (min-width: 1280px) {
     .hero-text {
@@ -135,37 +96,6 @@
 }
 
 .hero-imeage {
-<<<<<<< Updated upstream
-    background-image: url('../img/hero-mob-img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 370px;
-    min-width: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px) {
-    .hero-imeage {
-        background-image: url('../img/hero-mob-img@2x.jpg');
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .hero-imeage {
-        background-image: url('../img/hero-tab-img.jpg');
-    }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    .hero-imeage {
-        background-image: url('../img/hero-tab-img@2x.jpg');
-    }
-=======
   background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('.src/img/hero-mob-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +123,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-imeage {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('.src/img/hero-tab-img@2x.jpg');
   }
->>>>>>> Stashed changes
 }
 
 @media screen and (min-width: 1280px) {
