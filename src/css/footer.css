@@ -1,9 +1,4 @@
 
-.container {
-    /* min-width: 320px; */
-    height: auto;
-  }
-  
   .footer { 
     background-color: #7a3145;
   padding: 40px 20px;
@@ -14,8 +9,13 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+  padding: 0;
   }
   
+  .footer-wrap {
+    margin-bottom: 40px;
+  }
+
   .footer-logo-wrap {
     display: flex;  
     width: 168px;
@@ -29,21 +29,18 @@
   }
   
   .footer-text {
-        font-family: "Inter Tight", sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.28571;
         color: #fbfbfb;
         min-width: 296px;
         margin-top: 14px;
-        margin-bottom: 40px;
     }
   
   .footer-menu-link {
     font-size: 28px;
         font-weight: 600;
         line-height: 1;
-    font-family: "Inter Tight", sans-serif;
     letter-spacing: -0.01em;
     color: #fbfbfb;
     display: flex;
@@ -70,14 +67,12 @@
         font-size: 14px;
         font-weight: 600;
         line-height: 1.28571;
-        max-width: 215px;
-        font-family: "Inter Tight", sans-serif;
+        max-width: 179px;
         color: #fbfbfb;
         letter-spacing: -0.01em;
         margin: auto 0; 
     }
   
-    
   .footer-privacy {
     min-width: 100%;
     }
@@ -93,7 +88,6 @@
         font-weight: 500;
         line-height: 1.16667;
         width: auto;
-        font-family: "Inter Tight", sans-serif; 
         color: rgba(251, 251, 251, 0.5);
     }
    
@@ -101,15 +95,7 @@
                           /* tablet */
   
     @media screen and (min-width: 768px) {
-      /* .mobile-menu {
-        display: none;
-      } */
-  
-  .container {
-              max-width: 1157px;
-              height: auto;
-              padding: 0;
-          }
+    
   
   .footer {
             margin-right: 0 auto;
@@ -196,14 +182,6 @@
   /* desktop  */
   
   @media screen and (min-width: 1280px) {
-  /* .mobile-menu {
-    display: none;
-  } */
-  
-  .container {
-        max-width: 1280px; 
-        padding: 0;
-    }
   
   .footer {
       margin-right: 0 auto;
