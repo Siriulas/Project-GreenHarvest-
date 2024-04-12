@@ -1,3 +1,56 @@
+.body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.a {
+  text-decoration: none;
+  display: block;
+}
+
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.containder {
+  max-width: 375px;
+  margin: 0 auto;
+
+}
+
+@media (min-width: 768px) {
+  .containder {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .containder {
+    max-width: 1280px;
+  }
+}
+
 /* HERO */
 
 .hero {
@@ -6,6 +59,21 @@
   margin-left: auto;
 }
 
+<<<<<<< Updated upstream
+=======
+@media (min-width: 1280px) {
+.hero {
+  display: flex;
+}
+}
+
+@media (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+  }
+}
+
+>>>>>>> Stashed changes
 .hero-text-wrap {
   display: flex;
   flex-direction: column;
@@ -90,6 +158,33 @@
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-imeage {
+<<<<<<< Updated upstream
     background-image: url('.src/img/hero-tab-img@2x.jpg');
+=======
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('/img/hero-tab-img@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-imeage {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)), url('/img/hero-desk-img.jpg');
+    min-width: 650px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .hero-imeage {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)), url('/img/hero-desk-img@2x.jpg');
+>>>>>>> Stashed changes
   }
 }
