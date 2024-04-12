@@ -9,6 +9,8 @@
 
 .how-img-wrap {
 	position: relative;
+	width: 335px;
+	margin: 0 auto;
 }
 
 .how-img-wrap::after {
@@ -23,7 +25,6 @@
 }
 
 .how-img {
-	margin: 0 auto;
 	border-radius: 30px;
 }
 
@@ -124,6 +125,10 @@
 		padding-bottom: 100px;
 	}
 
+	.how-img-wrap {
+		width: 640px;
+	}
+
 	.how-bottom-wrap {
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -131,8 +136,6 @@
 
 	.how-container {
 		width: 450px;
-		padding-left: 0;
-		padding-right: 0;
 	}
 
 	.how-title {
@@ -169,15 +172,15 @@
 	}
 
 	.how-img-wrap {
-		max-width: 420px;
+		max-width: 430px;
 		margin-left: auto;
+		margin-right: 0;
 	}
 
 	.how-bottom-wrap {
 		width: calc(50% + 10px);
 		padding-left: 100px;
 		padding-right: 100px;
-
 		display: flex;
 		justify-content: start;
 	}
@@ -185,10 +188,7 @@
 	.how-container {
 		width: 450px;
 		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}		
-
-	.how-img  {
-		margin-left: auto;
-		margin-right: 0;
-	}
 }
