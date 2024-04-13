@@ -1,9 +1,11 @@
+/* your-order */
+
 .your-order {
   background-color: #7a3145;
   padding: 80px 0;
 }
 
-.subtitle {
+.order-subtitle {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.04167;
@@ -15,12 +17,15 @@
 .decorated-red-txt {
   color: rgba(251, 251, 251, 0.3);
 }
-.text {
+.order-text {
   max-width: 335px;
   margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
 }
 
-.content-wrap {
+.order-content-wrap {
   display: flex;
   flex-direction: column;
 }
@@ -147,22 +152,22 @@
   transform: scale(1);
 }
 
-.social-media {
+.order-social-media {
   flex: 100%;
   border-radius: 30px;
   padding: 40px 20px;
   background-color: #576f35;
 }
 
-.social-media:hover .social-img {
+.order-social-media:hover .order-social-img {
   transform: scale(1.1);
 }
 
-.social-media:hover .font {
+.order-social-media:hover .order-font {
   background-color: rgba(20, 20, 20, 0.1);
 }
 
-.back-img {
+.order-back-img {
   max-width: 100%;
   height: 273px;
   border-radius: 16px;
@@ -171,24 +176,23 @@
   margin-bottom: 20px;
 }
 
-.social-img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    transition: transform 1s cubic-bezier(.49,.25,.39,.98);
+.order-social-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: transform 1s cubic-bezier(0.49, 0.25, 0.39, 0.98);
 }
 
-.font {
-    position: absolute;
-    top: 0;
-    background-color: rgba(20, 20, 20, 0.3);
-    height: 100%;
-    width: 100%;
-    transition: background-color 1s cubic-bezier(.49,.25,.39,.98);
-
+.order-font {
+  position: absolute;
+  top: 0;
+  background-color: rgba(20, 20, 20, 0.3);
+  height: 100%;
+  width: 100%;
+  transition: background-color 1s cubic-bezier(0.49, 0.25, 0.39, 0.98);
 }
 
-.social-txt {
+.order-social-txt {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.28571;
@@ -197,62 +201,56 @@
   margin-bottom: 14px;
 }
 
-.social-list {
+.order-social-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
 }
-.social-link {
+.order-social-link {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08333;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.order-social-link:hover,
+.order-social-link:focus {
   transform: scale(1.05);
 }
 
-.social-link:active {
+.order-social-link:active {
   transform: scale(1);
 }
 
-.slash {
+.order-slash {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08333;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
   .your-order {
     padding: 100px 12px;
   }
 
-  .subtitle {
+  .order-subtitle {
     font-size: 64px;
     line-height: 1;
     max-width: 640px;
     margin-bottom: 25px;
   }
 
-  .text {
+  .order-text {
     max-width: 640px;
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 50px;
   }
 
-  .content-wrap {
+  .order-content-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,46 +290,41 @@
     height: 52px;
   }
 
-  .social-media {
+  .order-social-media {
     padding: 50px;
   }
 
-  .back-img {
+  .order-back-img {
     max-width: 528px;
     margin-bottom: 50px;
   }
 
-  .social-txt {
+  .order-social-txt {
     font-size: 18px;
     line-height: 1.11111;
     margin-bottom: 15px;
   }
 
-  .social-link {
+  .order-social-link {
     font-size: 32px;
     line-height: 1;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .your-order {
+    padding: 100px 0px;
+  }
 
-    .container {
-        max-width: 1280px;
-    }
-    
-    .your-order {
-        padding: 100px 0px;
-    }
-
-  .subtitle {
+  .order-subtitle {
     max-width: 751px;
   }
 
-  .text {
+  .order-text {
     max-width: 742px;
   }
 
-  .content-wrap {
+  .order-content-wrap {
     flex-direction: row;
     align-items: center;
     gap: 24px;
@@ -342,15 +335,14 @@
     margin-bottom: 0;
   }
 
-  .back-img {
+  .order-back-img {
     height: 273px;
   }
-  .social-list {
+  .order-social-list {
     max-width: 357px;
   }
 
-
-  .slash {
+  .order-slash {
     font-size: 32px;
   }
 }
