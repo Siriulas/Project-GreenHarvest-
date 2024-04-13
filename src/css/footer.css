@@ -94,17 +94,17 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    margin-right: 0 auto;
+    margin-right: 0;
     padding: 32px 0;
   }
 
   .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
     max-width: 704px;
     height: auto;
+    padding: 0;
   }
 
   .footer-logo-wrap {
@@ -163,7 +163,7 @@
   .footer-contacts-item {
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.11111;
+    line-height: 1.11;
     max-width: 215px;
   }
 
@@ -180,7 +180,7 @@
   .footer-privacy-item {
     font-size: 18px;
     font-weight: 500;
-    line-height: 1.11111;
+    line-height: 1.11;
     color: rgba(251, 251, 251, 0.5);
     letter-spacing: -0.01em;
   }
@@ -190,7 +190,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    margin-right: 0 auto;
+    margin-right: 0;
     padding: 50px 100px;
   }
 
@@ -203,19 +203,17 @@
     display: flex;
     width: auto;
     height: auto;
-  }
-
-  .footer-menu-list {
     margin-left: 302px;
   }
+
   .footer-contacts-list {
-    margin-left: 121px;
+    margin-top: 0;
   }
 
   .footer-contacts-item {
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.11111;
+    line-height: 1.11;
     margin-left: 121px;
     min-width: 215px;
     height: 85px;
