@@ -1,12 +1,12 @@
 
-.container {
+/* .container {
     max-width: 375px;
     height: auto;
-  }
+  } */
   
   .footer { 
     background-color: #7a3145;
-  padding: 40px 20px;
+  padding: 40px 0;
   }
   
   /* .footer-container {
@@ -16,29 +16,55 @@
   flex-direction: column;
   } */
   
-  .footer-logo-wrap {
+
+
+
+
+
+
+  /* .footer-logo-wrap {
     display: flex;  
     width: 168px;
      height: 16px;
      gap: 4px; 
-  }
-  
+  } */
+.foot-firsr-block {
+  margin-bottom: 40px;
+}
+
+.footer-logo-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
   .footer-links-icons {
-      display: flex;
       fill: #fbfbfb;
   }
   
   .footer-text {
-        font-family: "Inter Tight", sans-serif;
+        /* font-family: "Inter Tight", sans-serif; */
         font-size: 14px;
         font-weight: 500;
         line-height: 1.28571;
         color: #fbfbfb;
         min-width: 296px;
-        margin-top: 14px;
-        margin-bottom: 40px;
+       
+    }
+
+    .footer-menu-section {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
     }
   
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
   .footer-menu-link {
     font-size: 28px;
         font-weight: 600;
@@ -46,28 +72,27 @@
     font-family: "Inter Tight", sans-serif;
     letter-spacing: -0.01em;
     color: #fbfbfb;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 14px;
-    flex-grow: 1;
-    min-width: 155px;
+    flex-grow: 1; */
+    /* min-width: 155px; */
   }
   
   .footer-contacts-list {
-    /* display: flex;
+    display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 14px; */
-  /* flex-grow: 1; */
+  gap: 14px;
+  flex-grow: 1;
   /* margin-top: 54px; */
-  width: 215px;
-  height: 68px;
+  /* width: 215px;
+  height: 68px; */
+  font-style: inherit;
   font-size: 14px;
-        font-weight: 600;
-        line-height: 1.28571;
-        letter-spacing: -0.01em;
+  font-weight: 600;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
   }
   
   .footer-contacts-item {
@@ -75,7 +100,6 @@
         font-weight: 600;
         line-height: 1.28571;
         max-width: 215px;
-        font-family: "Inter Tight", sans-serif;
         color: #fbfbfb;
         letter-spacing: -0.01em;
     }
@@ -99,6 +123,10 @@
         font-family: "Inter Tight", sans-serif; 
         color: rgba(251, 251, 251, 0.5);
     }
+
+    .footer-slash {
+      padding: 0 8px;
+    }
    
   
                           /* tablet */
@@ -109,64 +137,77 @@
       } */
   
   .container {
+    max-width: 768px;
               /* max-width: 1157px;
               height: auto;
               padding: 0; */
           }
   
   .footer {
-            margin-right: 0 auto;
-            padding: 32px;
-          }
+    /* margin-right: 0 auto; */
+    padding: 32px 0;
+  }
   
-  .footer-container {
+  /* .footer-container {
     display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 704px;
         height: auto;
-        }
+        } */
         
-  .footer-logo-wrap {
+  /* .footer-logo-wrap {
           display: flex; 
           width: 194px;
            height: 18px;
            gap: 8px; 
-        }
+        } */
   
+  .foot-wrap-tab {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-links-icons.kub {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-links-icons.harv {
+    width: 168px;
+    height: 15px;
+  }
+
   .footer-text {
-        max-width: 265px;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.25;
-            color: #fbfbfb;
-            margin-top: 25px;
-            margin-bottom: 0;
+    max-width: 265px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #fbfbfb;
+    margin-top: 25px;
+    margin-bottom: 0;
         }
   
   .footer-menu-section {
-  width: 215px;
-  height: 295px;
+    gap: 64px;
   } 
-  
+  .footer-menu-list {
+    gap: 25px;
+  }
+
   .footer-menu-link {
-            font-size: 32px;
-                font-weight: 600;
-                line-height: 1;
-            min-width: 177px;
-            margin-top: 0; 
-            margin-bottom: 25px; 
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1; 
     }
   
   .footer-contacts-list {
-        display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      gap: 25px;
-      flex-grow: 1;
-      margin-top: 64px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    gap: 25px;    
       } 
   
     .footer-contacts-item {
@@ -181,16 +222,12 @@
   }
   
   .footer-privacy-block {
-  display: flex;
-  margin-top: 100px;
-  justify-content: space-between; 
+  margin-top: 100px; 
   }
   
   .footer-privacy-item {
   font-size: 18px;
-  font-weight: 500;
   line-height: 1.11111;
-  color: rgba(251, 251, 251, 0.5);
   letter-spacing: -0.01em;
   }
   }
@@ -209,41 +246,41 @@
     }
   
   .footer {
-      margin-right: 0 auto;
-      padding: 50px 100px;
+      /* margin-right: 0 auto; */
+      padding: 50px 0;
     }
   
-  .footer-container {
+  /* .footer-container {
       min-width: 1080px;
       height: auto;
       }
-  
+   */
+
   .footer-menu-section {
-  display: flex;
+    flex-direction: row;
+    gap: 121px;
+  /* display: flex;
   margin: 0 auto;
   width: auto;
-  height: auto;
+  height: auto; */
   }
   
-  .footer-contacts-list {
+  /* .footer-contacts-list {
     margin-top: 0;
-    } 
+    }  */
   
-  .footer-contacts-item {
+  /* .footer-contacts-item {
       font-size: 18px;
       font-weight: 600;
       line-height: 1.11111;
-      margin-left: 121px;
-      min-width: 215px;
-  height: 85px;
-  }
+  } */
   
-  .footer-privacy {
+  /* .footer-privacy {
   min-width: 1080px;
-  }
+  } */
   
   .footer-privacy-block {
-  display: flex;
+  /* display: flex; */
   margin-top: 125px;
   justify-content: space-between; 
   }
