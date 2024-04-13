@@ -1,0 +1,94 @@
+.header {
+<<<<<<< Updated upstream
+    background-color: #576f35;
+}
+
+.container {
+    width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.logo-icon {
+    fill: #fbfbfb;
+}
+.logo-text-button {
+    display: flex;
+    align-items: center;
+    max-width: 325px;
+    height: 56px;
+    justify-content: space-between;
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px; */
+}
+.open-menu-btn {
+    position: fixed;
+=======
+background-color: #576F35;
+}
+button {
+    font-family: inherit;
+        color: currentColor;
+}
+.container {
+width: 375px;
+padding: 0 20px;
+margin: 0 auto;
+}
+.logo-text-button {
+width: 375px;
+height: 32px;
+}
+.logo-text-button {
+display: flex;
+align-items: center;
+max-width: 320px;
+height: 56px;
+justify-content: space-between;
+}
+.menu-icon {
+    stroke-width: 3px;
+}
+.navig {
+    display: none;
+}
+.open-menu-btn {
+>>>>>>> Stashed changes
+    width: 32px;
+        height: 32px;
+        position: relative;
+        border: none;
+        cursor: pointer;
+<<<<<<< Updated upstream
+        background-color: transparent;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.navig {
+    display: none;
+}
+
+/* TABLET */
+
+@media screen (min-width: 768px) {
+    .logo-text-button {
+            display: flex;
+            align-items: center;
+            max-width: 704px;
+            height: 56px;
+            justify-content: space-between;
+        }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
+    .navig {
+        display: flex;
+    }
+    .open-menu-btn {
+        display: none;
+    }
+
+=======
+>>>>>>> Stashed changes
+}
