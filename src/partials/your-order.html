@@ -1,58 +1,109 @@
 <section class="your-order">
-    <div class="container">
-        <h2 class="subtitle">Fresh <span class="decorated-red-txt">Harvest</span> Box has got you covered</h2>
-        <p class="text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+  <div class="container">
+    <h2 class="order-subtitle">
+      Fresh <span class="decorated-red-txt">Harvest</span> Box has got you
+      covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
 
+    <div class="order-content-wrap">
+      <div class="order-wrap">
+        <p class="order-txt">
+          Ordering <span class="red-txt">from us</span> is quick and easy! Fill
+          out <span class="green-txt">the form</span> below and we will contact
+          you !
+        </p>
 
-        <div class="content-wrap">
-            <div class="order-wrap">
-                <p class="order-txt">Ordering <span class="red-txt">from us</span> is quick and easy! Fill out <span class="green-txt">the form</span> below and we will contact you !</p>
-            
-                <form class="order-form">
-                    <div class="order-label-wrap">
-                        <label class="order-label">
-                            <input class="order-input" type="text" name="user-name" placeholder="Full Name" />
-                        </label>
-                    </div>
-        
-                    <div class="order-label-wrap">
-                        <label class="order-label">
-                            <input class="order-input" type="email" name="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
-                        </label>
-                    </div>
-        
-                    <div class="order-comment-wrap">
-                        <label class="order-label">
-                        <textarea class="order-comment" name="user-comment" placeholder="Comment"></textarea>
-                        </label>
-                    </div>
-        
-                    <button class="order-btn" type="submit">Send</button>
-                </form>
-            </div>
-    
+        <form class="order-form">
+          <div class="order-label-wrap">
+            <label class="order-label">
+              <input
+                class="order-input"
+                type="text"
+                name="user-name"
+                placeholder="Full Name"
+              />
+            </label>
+          </div>
 
+          <div class="order-label-wrap">
+            <label class="order-label">
+              <input
+                class="order-input"
+                type="email"
+                name="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </label>
+          </div>
 
-            <div class="social-media">
-                <div class="back-img">
-                    <picture class="social-picture">
-                        <source srcset="/img/your-order-desk-img.jpg 1x, /img/your-order-desk-img@2x.jpg 2x" media="(min-width: 1280px)" />
-                        <source srcset="/img/your-order-tab-img.jpg 1x, /img/your-order-tab-img@2x.jpg 2x" media="(min-width: 768px)" />
-                        <source srcset="/img/your-order-mob-img.jpg 1x, /img/your-order-mob-img@2x.jpg 2x" media="(min-width: 320px)" />
-                        <img class="social-img" src="/img/your-order-mob-img.jpg" alt="makes morning juice" >
-                    </picture>
-                    <p class="font"></p>
-                </div>
-                <p class="social-txt">Follow us on our social networks:</p>
-                <ul class="social-list">
-                    <li class="social-link"><a href="https://www.instagram.com/goitclub/">instagram</a></li>
-                    <li class="slash"><span>/</span></li>
-                    <li class="social-link"><a href="https://www.facebook.com/goITclub/">facebook</a></li>
-                    <li class="slash"><span>/</span></li>
-                    <li class="social-link"><a href="https://www.youtube.com/c/GoIT">youtube</a></li>
-                </ul>
-            </div>
+          <div class="order-comment-wrap">
+            <label class="order-label">
+              <textarea
+                class="order-comment"
+                name="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
+
+          <button class="order-btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="order-social-media">
+        <div class="order-back-img">
+          <picture class="order-social-picture">
+            <source
+              srcset="
+                /img/your-order-desk-img.jpg    1x,
+                /img/your-order-desk-img@2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                /img/your-order-tab-img.jpg    1x,
+                /img/your-order-tab-img@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                /img/your-order-mob-img.jpg    1x,
+                /img/your-order-mob-img@2x.jpg 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              class="order-social-img"
+              src="/img/your-order-mob-img.jpg"
+              alt="makes morning juice"
+            />
+          </picture>
+          <p class="order-font"></p>
         </div>
-
+        <p class="order-social-txt">Follow us on our social networks:</p>
+        <ul class="order-social-list">
+          <li class="order-social-link">
+            <a href="https://www.instagram.com/goitclub/">instagram</a>
+          </li>
+          <li class="order-slash"><span>/</span></li>
+          <li class="order-social-link">
+            <a href="https://www.facebook.com/goITclub/">facebook</a>
+          </li>
+          <li class="order-slash"><span>/</span></li>
+          <li class="order-social-link">
+            <a href="https://www.youtube.com/c/GoIT">youtube</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </section>
