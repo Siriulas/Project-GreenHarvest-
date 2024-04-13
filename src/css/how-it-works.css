@@ -1,4 +1,5 @@
 .how-it-works {
+  background-color: #576f35;
 }
 
 .how-top-wrap {
@@ -112,10 +113,6 @@
   line-height: 1.167;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
-}
-
-.how-child-two {
-  margin-right: 35px;
 }
 
 .how-item-text span {
