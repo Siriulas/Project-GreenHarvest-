@@ -1,0 +1,132 @@
+/*----advertisement---*/
+
+.advertisement {
+    background-color: #fbfbfb;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.container {}
+
+.visually-hidden {}
+
+.wrap-text-part {
+    border-radius: 12px;
+    max-width: 355px;
+    height: 100%;
+    background-color: #576F35;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-first-part {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin: 0;
+}
+
+.advertisement-text {
+    width: 335px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .section {}
+
+    .advertisement {
+        padding: 100px 16px;
+    }
+
+    .visually-hidden {}
+
+    .container {}
+
+    .advertisement-container {}
+
+    .wrap-text-part {
+        max-width: 736px;
+        height: 100%;
+    }
+
+    .advertisement-text {
+        min-width: 704px;
+        font-size: 64px;
+        line-height: 1.09;
+    }
+
+    .text-first-part {
+        font-size: 64px;
+        line-height: 1.09;
+    }
+
+    .text-part-taste {}
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .section {}
+
+    .advertisement {
+        padding: 100px 100px;
+        display: block;
+    }
+
+    .visually-hidden {}
+
+    .container {}
+
+    .advertisement-container {
+        max-width: 1080px;
+    }
+
+    .wrap-text-part {
+        max-width: 847px;
+        height: 100%;
+        position: relative;
+    }
+
+    .advertisement-text {
+        min-width: 1054px;
+        font-size: 76px;
+        line-height: 1.05;
+        word-wrap: break-word;
+    }
+
+    .text-first-part {
+        font-size: 76px;
+        line-height: 1.05;
+        word-wrap: break-word;
+    }
+
+    .text-part-taste {
+        font-size: 76px;
+        line-height: 1.05;
+        word-wrap: break-word;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+    }
+
+    .wrap-text-part::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
