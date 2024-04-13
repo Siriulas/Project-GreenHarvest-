@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/team-project-binary-dreamers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project-binary-dreamers/assets/index-3b3dcbf3.css">
+    <link rel="stylesheet" href="/team-project-binary-dreamers/assets/index-43fff6ba.css">
   </head>
   <body>
     <header class="header"></header>
@@ -97,7 +97,7 @@
               <p class="how-item-num">2</p>
             </div>
           </div>
-          <p class="how-item-text">
+          <p class="how-item-text how-child-two">
             Click on <span>the basket</span> and fill out the form.
           </p>
         </li>
@@ -119,19 +119,20 @@
 
     <!--  -->
     <section class="section advertisement">
-  <div class="container">
-    <h2 class="visually-hidden">Advertisement</h2>
-    <div class="advertisement-container">
+  <div class="container advertisement-container">
+    <div class="container advertisement-container">
+      <h2 class="visually-hidden">Advertisement</h2>
       <div class="wrap-text-part">
         <p class="advertisement-text">
           <span class="text-first-part">Discount up to 40%!</span>
         </p>
       </div>
-      <p class="advertisement-text">
+      <p class="advertisement-text advertisement-bottom-text">
         <span class="text-part-taste">Taste</span> the vitamins and keep your
         health
       </p>
     </div>
+    <p class="advertisement-text">Taste the vitamins and keep your health</p>
   </div>
 </section>
 
@@ -327,128 +328,154 @@
 
     <!--  -->
     <section class="your-order">
-    <div class="container">
-        <h2 class="subtitle">Fresh <span class="decorated-red-txt">Harvest</span> Box has got you covered</h2>
-        <p class="text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+  <div class="container">
+    <h2 class="order-subtitle">
+      Fresh <span class="decorated-red-txt">Harvest</span> Box has got you
+      covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
 
+    <div class="order-content-wrap">
+      <div class="order-wrap">
+        <p class="order-txt">
+          Ordering <span class="red-txt">from us</span> is quick and easy! Fill
+          out <span class="green-txt">the form</span> below and we will contact
+          you !
+        </p>
 
-        <div class="content-wrap">
-            <div class="order-wrap">
-                <p class="order-txt">Ordering <span class="red-txt">from us</span> is quick and easy! Fill out <span class="green-txt">the form</span> below and we will contact you !</p>
-            
-                <form class="order-form">
-                    <div class="order-label-wrap">
-                        <label class="order-label">
-                            <input class="order-input" type="text" name="user-name" placeholder="Full Name" />
-                        </label>
-                    </div>
-        
-                    <div class="order-label-wrap">
-                        <label class="order-label">
-                            <input class="order-input" type="email" name="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
-                        </label>
-                    </div>
-        
-                    <div class="order-comment-wrap">
-                        <label class="order-label">
-                        <textarea class="order-comment" name="user-comment" placeholder="Comment"></textarea>
-                        </label>
-                    </div>
-        
-                    <button class="order-btn" type="submit">Send</button>
-                </form>
-            </div>
-    
+        <form class="order-form">
+          <div class="order-label-wrap">
+            <label class="order-label">
+              <input
+                class="order-input"
+                type="text"
+                name="user-name"
+                placeholder="Full Name"
+              />
+            </label>
+          </div>
 
+          <div class="order-label-wrap">
+            <label class="order-label">
+              <input
+                class="order-input"
+                type="email"
+                name="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </label>
+          </div>
 
-            <div class="social-media">
-                <div class="back-img">
-                    <picture class="social-picture">
-                        <source srcset="/team-project-binary-dreamers/assets/your-order-desk-img-40006983.jpg 1x, /team-project-binary-dreamers/assets/your-order-desk-img@2x-98d59502.jpg 2x" media="(min-width: 1280px)" />
-                        <source srcset="/team-project-binary-dreamers/assets/your-order-tab-img-1b72dac4.jpg 1x, /team-project-binary-dreamers/assets/your-order-tab-img@2x-00b2cea9.jpg 2x" media="(min-width: 768px)" />
-                        <source srcset="/team-project-binary-dreamers/assets/your-order-mob-img-dff6f641.jpg 1x, /team-project-binary-dreamers/assets/your-order-mob-img@2x-6624d2ee.jpg 2x" media="(min-width: 320px)" />
-                        <img class="social-img" src="/team-project-binary-dreamers/assets/your-order-mob-img-dff6f641.jpg" alt="makes morning juice" >
-                    </picture>
-                    <p class="font"></p>
-                </div>
-                <p class="social-txt">Follow us on our social networks:</p>
-                <ul class="social-list">
-                    <li class="social-link"><a href="https://www.instagram.com/goitclub/">instagram</a></li>
-                    <li class="slash"><span>/</span></li>
-                    <li class="social-link"><a href="https://www.facebook.com/goITclub/">facebook</a></li>
-                    <li class="slash"><span>/</span></li>
-                    <li class="social-link"><a href="https://www.youtube.com/c/GoIT">youtube</a></li>
-                </ul>
-            </div>
+          <div class="order-comment-wrap">
+            <label class="order-label">
+              <textarea
+                class="order-comment"
+                name="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
+
+          <button class="order-btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="order-social-media">
+        <div class="order-back-img">
+          <picture class="order-social-picture">
+            <source
+              srcset="/team-project-binary-dreamers/assets/your-order-desk-img-40006983.jpg 1x, /team-project-binary-dreamers/assets/your-order-desk-img@2x-98d59502.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/team-project-binary-dreamers/assets/your-order-tab-img-1b72dac4.jpg 1x, /team-project-binary-dreamers/assets/your-order-tab-img@2x-00b2cea9.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/team-project-binary-dreamers/assets/your-order-mob-img-dff6f641.jpg 1x, /team-project-binary-dreamers/assets/your-order-mob-img@2x-6624d2ee.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="order-social-img"
+              src="/team-project-binary-dreamers/assets/your-order-mob-img-dff6f641.jpg"
+              alt="makes morning juice"
+            />
+          </picture>
+          <p class="order-font"></p>
         </div>
-
+        <p class="order-social-txt">Follow us on our social networks:</p>
+        <ul class="order-social-list">
+          <li class="order-social-link">
+            <a href="https://www.instagram.com/goitclub/">instagram</a>
+          </li>
+          <li class="order-slash"><span>/</span></li>
+          <li class="order-social-link">
+            <a href="https://www.facebook.com/goITclub/">facebook</a>
+          </li>
+          <li class="order-slash"><span>/</span></li>
+          <li class="order-social-link">
+            <a href="https://www.youtube.com/c/GoIT">youtube</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </section>
+
     <!--  -->
-    
-  <!-- footer -->
-  <footer class="footer">
-    <div class="container">
-        <!-- <div class="footer-wrap"> 
-    <div class="footer-logo-wrap">
-        <ul class="footer-logo"> 
-         <li class="footer-logo-item">
-        <div class="footer-icons-wrap"> 
-            <a class="footer-logo-links" href=" ">
-            <svg class="footer-links-icons" width="16" height="16">
-                <use href="./images/icons.svg#icon-Logo-vector"></use>
+    <!-- footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="foot-wrap-tab">
+      <div class="foot-firsr-block">
+        <div class="footer-icons-wrap">
+          <a class="footer-logo-links" href=" ">
+            <svg class="footer-links-icons kub" width="16" height="16">
+              <use href="/team-project-binary-dreamers/assets/symbol-defs-88d791d4.svg#icon-logo-vector"></use>
             </svg>
-            </a>
+            <svg class="footer-links-icons harv" width="148" height="12">
+              <use href="/team-project-binary-dreamers/assets/symbol-defs-88d791d4.svg#icon-green-harvest"></use>
+            </svg>
+          </a>
         </div>
-         </li>
-        </ul> -->
-        
-        <!-- <ul class="footer-logo"> 
-            <li class="footer-logo-item"> -->
-            <div class="foot-wrap-tab">
-                <div class="foot-firsr-block">
-                    <div class="footer-icons-wrap"> 
-                        <a class="footer-logo-links" href=" ">
-                        <svg class="footer-links-icons kub" width="16" height="16">
-                            <use href="/team-project-binary-dreamers/assets/symbol-defs-88d791d4.svg#logo-mob-icon"></use>
-                        </svg>
-                        <svg class="footer-links-icons harv" width="148" height="12">
-                            <use href="/team-project-binary-dreamers/assets/symbol-defs-88d791d4.svg#icon-green-harvest"></use>
-                        </svg>
-                        </a>
-                    </div>
-        
-                    <p class="footer-text">Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</p>
-                </div>
-    
-    
-    
-            <div class="footer-menu-section">
-                 <ul class="footer-menu-list"> 
-                    <li><a class="footer-menu-link" href="">how it works</a></li>
-                    <li><a class="footer-menu-link" href="">vegetables</a></li>
-                    <li><a class="footer-menu-link" href="">reviews</a></li>
-                  </ul>
-    
-                  <address class="footer-contacts-list">
-                    <a class="footer-contacts-item" href="tel:+380684439426">+380 (68) 443-94-26</a>
-                    1678 S. Pioneer Road Salt<br /> Lake City UT 84104
-                  </address>        
-            </div>
-            </div>
 
-        <ul class="footer-privacy-block">
-            <li class="footer-privacy-item">  Privacy Policy<span class="footer-slash">/</span>Cookie settings</li>
-            <li class="footer-privacy-item"> &#169;Green Harvest 2023 </li>
-        </ul> 
+        <p class="footer-text">
+          Whether you're looking for a healthy snack or a thoughtful gift, our
+          fruit baskets are the perfect choice.
+        </p>
+      </div>
 
+      <div class="footer-menu-section">
+        <ul class="footer-menu-list">
+          <li><a class="footer-menu-link" href="">how it works</a></li>
+          <li><a class="footer-menu-link" href="">vegetables</a></li>
+          <li><a class="footer-menu-link" href="">reviews</a></li>
+        </ul>
+
+        <address class="footer-contacts-list">
+          <a class="footer-contacts-item" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
+          1678 S. Pioneer Road Salt<br />
+          Lake City UT 84104
+        </address>
+      </div>
     </div>
-                
-    
 
-   
-</footer> 
-
+    <ul class="footer-privacy-block">
+      <li class="footer-privacy-item">
+        Privacy Policy<span class="footer-slash">/</span>Cookie settings
+      </li>
+      <li class="footer-privacy-item">&#169;Green Harvest 2023</li>
+    </ul>
+  </div>
+</footer>
 
     <!--  -->
     <div class="back-menu">
