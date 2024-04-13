@@ -1,4 +1,9 @@
+
 /* how-it-works */
+
+.how-it-works {
+  background-color: #576f35;
+}
 
 .how-top-wrap {
   background-image: linear-gradient(#7a3145, #7a3145);
@@ -194,4 +199,5 @@
   .how-tree-child {
     margin-right: 20px;
   }
+
 }
