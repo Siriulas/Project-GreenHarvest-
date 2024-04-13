@@ -1,3 +1,6 @@
+
+/* how-it-works */
+
 .how-it-works {
   background-color: #576f35;
 }
@@ -54,7 +57,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  color: #fbfbfb;
   max-width: 335px;
   margin-bottom: 40px;
 }
@@ -73,7 +75,6 @@
   margin-bottom: 0;
 }
 
-/* !!? */
 .how-num-border {
   width: 52px;
   height: 52px;
@@ -95,8 +96,6 @@
   background-color: #7a3145;
   border-radius: 50%;
   box-sizing: content-box;
-  /* !!? */
-  /* border: 5px solid rgba(122, 49, 68, 0.3); */
 }
 
 .how-item-num {
@@ -104,7 +103,6 @@
   font-size: 20px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
 }
 
 .how-item-text {
@@ -113,6 +111,10 @@
   line-height: 1.167;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
+}
+
+.how-two-child {
+  margin-right: 35px;
 }
 
 .how-item-text span {
@@ -137,6 +139,7 @@
 
   .how-container {
     width: 450px;
+    padding: 0;
   }
 
   .how-title {
@@ -192,4 +195,9 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .how-tree-child {
+    margin-right: 20px;
+  }
+
 }

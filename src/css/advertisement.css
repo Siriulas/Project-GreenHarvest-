@@ -2,105 +2,81 @@
 
 .advertisement {
   background-color: #fbfbfb;
+  padding: 80px 10px;
 }
 
-.advertisement-container {
-  padding: 0 10px;
-}
-
-.wrap-text-part {
+.text-first-part {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin: 0;
   border-radius: 12px;
-  height: 100%;
+  width: 355px;
   background-color: #576f35;
-  padding: 3px 10px 0;
-  margin-bottom: 10px;
+  padding: 0 10px;
+  display: block;
+  margin: 0 10px 0 -10px;
 }
 
 .advertisement-text {
-  max-width: 355px;
+  width: 100%;
   font-weight: 600;
   font-size: 48px;
   line-height: 1.05;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
-  margin: 0;
-}
-
-.advertisement-bottom-text {
-  margin: 0 10px;
-}
-
-.text-first-part {
-  color: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement-container {
-    padding: 0 16px;
-  }
 
-  .wrap-text-part {
-    max-width: 736px;
-    height: 100%;
-    padding: 8px 16px;
-    margin-bottom: 0;
-  }
+    .advertisement {
+        padding: 100px 16px;
+    }
 
-  .advertisement-text {
-    min-width: 704px;
-    font-size: 64px;
-    line-height: 1.09;
-  }
+    .advertisement-text {
+        min-width: 704px;
+        font-size: 64px;
+        line-height: 1.09;
+    }
 
-  .advertisement-bottom-text {
-    margin: 0 16px;
-  }
+    .text-first-part {
+        padding: 8px 16px;
+        width: 736px;
+        font-size: 64px;
+        line-height: 1.09;
+        margin: 0 16px 0 -16px;
+    }
 
-  .text-first-part {
-    font-size: 64px;
-    line-height: 1.09;
-  }
 }
 
+
 @media screen and (min-width: 1280px) {
-  .advertisement-container {
-    max-width: 1080px;
-    padding: 0 100px;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .wrap-text-part {
-    max-width: 822px;
-    height: 100%;
-    position: relative;
-  }
+    .advertisement {
+        padding: 100px 100px;
+        display: block;
+    }
 
-  .advertisement-text {
-    min-width: 1054px;
-    font-size: 76px;
-    line-height: 1.05;
-    word-wrap: break-word;
-  }
+    .advertisement-text {
+        max-width: 1060px;
+        font-size: 76px;
+        line-height: 1.05;
+        word-wrap: break-word;
+    }
 
-  .text-first-part {
-    font-size: 76px;
-    line-height: 1.05;
-    word-wrap: break-word;
-  }
+    .text-first-part {
+        font-size: 76px;
+        line-height: 1.05;
+        word-wrap: break-word;
+        display: inline;
+        margin: 0;
+        padding: 0 13px;
+        margin: 0 13px 0 -13px;
 
-  .text-part-taste {
-    font-size: 76px;
-    line-height: 1.05;
-    word-wrap: break-word;
-    display: inline-flex;
-  }
+    }
 
-  .wrap-text-part::after {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
 }
