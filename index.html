@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/team-project-binary-dreamers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project-binary-dreamers/assets/index-30895e55.css">
+    <link rel="stylesheet" href="/team-project-binary-dreamers/assets/index-a31afdfe.css">
   </head>
   <body>
     <!-- header -->
@@ -40,7 +40,7 @@
           </a>
         </div>
 
-        <button type="button" class="open-menu-btn">
+        <button type="button" class="open-menu-btn js-open-menu">
           <svg class="header-menu-icon">
             <use href="/team-project-binary-dreamers/assets/symbol-defs-246a1004.svg#menu-open-icon"></use>
           </svg>
@@ -556,9 +556,9 @@
 </footer>
 
     <!--  -->
-    <div class="back-menu">
+    <div class="back-menu js-menu-container">
   <div class="modal-menu">
-    <button class="menu-close" type="button">
+    <button class="menu-close js-close-menu" type="button">
       <svg class="menu-close-icon" width="32" height="32">
         <use href="../img/symbol-defs.svg#mob-menu-close-mobil-icon"></use>
       </svg>
@@ -576,11 +576,22 @@
         <a class="menu-nav-link" href="#reviews-section">Reviews</a>
       </li>
     </ul>
-    <button type="button" class="menu-button">Shop now</button>
+    <a
+      type="button"
+      href="#your-order-section"
+      class="menu-nav-link menu-button"
+      >Shop now</a
+    >
   </div>
 </div>
 
 
     
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
