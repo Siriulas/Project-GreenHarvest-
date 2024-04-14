@@ -5,6 +5,11 @@
   padding: 80px 10px;
 }
 
+.advertisement-container {
+  padding: 0;
+  max-width: 100%;
+}
+
 .text-first-part {
   font-weight: 600;
   font-size: 48px;
@@ -14,21 +19,22 @@
   color: #fbfbfb;
   margin: 0;
   border-radius: 12px;
-  width: 355px;
+  max-width: 355px;
   background-color: #576f35;
   padding: 0 10px;
   display: block;
-  margin: 0 10px 0 -10px;
+  margin: 0 -10px 0 -10px;
 }
 
 .advertisement-text {
-  width: 100%;
+  max-width: 375px;
   font-weight: 600;
   font-size: 48px;
   line-height: 1.05;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
+  padding: 0 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,29 +42,40 @@
     padding: 100px 16px;
   }
 
+  .advertisement-container {
+    padding: 0;
+    max-width: 736px;
+  }
+
   .advertisement-text {
-    min-width: 704px;
+    max-width: 704px;
     font-size: 64px;
     line-height: 1.09;
+    padding: 0 16px;
   }
 
   .text-first-part {
     padding: 8px 16px;
-    width: 736px;
+    max-width: 736px;
     font-size: 64px;
     line-height: 1.09;
-    margin: 0 16px 0 -16px;
+    margin: 0 -48px 0 -16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .advertisement {
-    padding: 100px 0;
+    padding: 100px;
     display: block;
   }
 
+  .advertisement-container {
+    padding: 0;
+    max-width: 1080px;
+  }
+
   .advertisement-text {
-    max-width: 1060px;
+    max-width: 1080px;
     font-size: 76px;
     line-height: 1.05;
     word-wrap: break-word;
@@ -69,8 +86,9 @@
     line-height: 1.05;
     word-wrap: break-word;
     display: inline;
+    max-width: 808px;
     margin: 0;
     padding: 0 13px;
-    margin: 0 13px 0 -13px;
+    margin: 0 6px 0 -13px;
   }
 }
