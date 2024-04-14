@@ -129,18 +129,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .how-top-wrap {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
   .how-img-wrap {
     width: 640px;
   }
 
   .how-bottom-wrap {
     padding-top: 100px;
-    padding-bottom: 100px;
   }
 
   .how-container {

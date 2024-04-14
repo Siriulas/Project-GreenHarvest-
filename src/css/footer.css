@@ -125,6 +125,7 @@
 
   .footer-menu-section {
     gap: 64px;
+    margin-right: 20px;
   }
   .footer-menu-list {
     gap: 25px;
