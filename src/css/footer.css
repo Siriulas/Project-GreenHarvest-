@@ -1,6 +1,5 @@
-
 /* <!-- footer --> */
-  
+
 .footer {
   background-color: #7a3145;
   padding: 40px 0;
@@ -26,7 +25,6 @@
   font-weight: 500;
   line-height: 1.28571;
   color: #fbfbfb;
-  min-width: 296px;
 }
 
 .footer-menu-section {

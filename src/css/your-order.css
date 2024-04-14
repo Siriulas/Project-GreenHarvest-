@@ -2,7 +2,6 @@
 
 .your-order {
   background-color: #7a3145;
-  padding: 80px 0;
 }
 
 .order-subtitle {
@@ -11,14 +10,12 @@
   line-height: 1.04167;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  max-width: 335px;
   margin-bottom: 29px;
 }
 .decorated-red-txt {
   color: rgba(251, 251, 251, 0.3);
 }
 .order-text {
-  max-width: 335px;
   margin-bottom: 40px;
   font-weight: 500;
   font-size: 14px;
@@ -31,7 +28,6 @@
 }
 
 .order-wrap {
-  flex: 100%;
   border-radius: 30px;
   padding: 40px 20px;
   background: #fbfbfb;
@@ -153,7 +149,6 @@
 }
 
 .order-social-media {
-  flex: 100%;
   border-radius: 30px;
   padding: 40px 20px;
   background-color: #576f35;

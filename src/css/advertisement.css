@@ -2,12 +2,11 @@
 
 .advertisement {
   background-color: #fbfbfb;
-  padding: 80px 10px;
 }
 
 .advertisement-container {
   padding: 0;
-  max-width: 100%;
+  width: calc(100% - 20px);
 }
 
 .text-first-part {
@@ -35,6 +34,12 @@
   text-transform: uppercase;
   color: #141414;
   padding: 0 10px;
+}
+
+@media screen and (min-width: 375px) {
+  .advertisement-container {
+    width: 355px;
+  }
 }
 
 @media screen and (min-width: 768px) {

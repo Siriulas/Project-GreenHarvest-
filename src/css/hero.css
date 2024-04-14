@@ -2,7 +2,6 @@
 
 .hero {
   background-color: #576f35;
-  margin: 0 auto;
 }
 
 .hero-text-wrap {
@@ -55,8 +54,8 @@
   .hero-container {
     padding-top: 122px;
     padding-bottom: 50px;
-    padding-right: 32px;
-    padding-left: 32px;
+    /* padding-right: 32px;
+    padding-left: 32px; */
   }
 
   .hero-text-wrap {
