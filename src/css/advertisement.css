@@ -49,7 +49,6 @@
   }
 
   .advertisement-container {
-    padding: 0;
     width: 736px;
   }
 
@@ -70,14 +69,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement {
-    padding: 100px;
-    display: block;
-  }
-
   .advertisement-container {
-    padding: 0;
-    max-width: 1080px;
+    width: 1080px;
   }
 
   .advertisement-text {
