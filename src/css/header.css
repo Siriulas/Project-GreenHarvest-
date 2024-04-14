@@ -1,22 +1,47 @@
+/* header */
+
 .header {
-  background-color: #576f35;
+  background-color: transparent;
+  position: relative;
+}
+
+.head {
+  z-index: 999;
+  max-width: 375px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heder-svg {
+  width: 32px;
+  height: 32px;
+}
+
+.header-logo-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header-links-icons {
+  fill: #fbfbfb;
 }
 
 .logo-text-button {
-  width: 375px;
-  height: 32px;
-}
-.logo-text-button {
   display: flex;
   align-items: center;
-  max-width: 320px;
-  height: 56px;
+  max-width: 335px;
   justify-content: space-between;
 }
-.menu-icon {
+
+.header-menu-icon {
+  width: 32px;
+  height: 32px;
   stroke-width: 3px;
 }
-.navig {
+.header-navigation {
   display: none;
 }
 .open-menu-btn {
@@ -25,32 +50,102 @@
   position: relative;
   border: none;
   cursor: pointer;
+  padding: 0;
   background-color: transparent;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
-.navig {
-  display: none;
+
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
 }
 
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+  .head {
+    max-width: 768px;
+    padding: 32px;
+  }
+
   .logo-text-button {
-    display: flex;
-    align-items: center;
     max-width: 704px;
-    height: 56px;
-    justify-content: space-between;
+  }
+
+  .header-logo-links {
+    gap: 8px;
+  }
+
+  .header-links-icons.kub {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header-links-icons.harv {
+    width: 168px;
+    height: 15px;
+  }
+
+  .header-menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .open-menu-btn {
+    width: 40px;
+    height: 40px;
   }
 }
 
 /* DESKTOP */
 
 @media screen and (min-width: 1280px) {
-  .navig {
-    display: flex;
+  .head {
+    max-width: 1280px;
+    padding: 32px 100px;
   }
+
+  .header-menu-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-navigation {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 8px;
+  }
+  .header-nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    min-width: 81px;
+    height: 44px;
+    margin: 4px 0;
+  }
+
   .open-menu-btn {
     display: none;
+  }
+
+  .header-shop-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 32px;
+    min-width: 157px;
+    height: 52px;
+    background: #7a3145;
   }
 }

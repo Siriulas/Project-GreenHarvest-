@@ -1,39 +1,45 @@
+<!-- header -->
+
 <header class="header">
-  <div class="logo-text-button container">
-    <div class="logo-wrap">
-      <a href="/src/index.html" class="logo">
-        <svg width="16" height="16" class="logo-icon">
-          <use href="/img/symbol-defs.svg#icon-logo-vector"></use>
-        </svg>
-      </a>
-      <a href="/src/index.html" class="logo">
-        <svg width="146" height="16" class="logo-icon">
-          <use href="/img/symbol-defs.svg#icon-greenharvest"></use>
-        </svg>
-      </a>
+  <div class="container head">
+    <div class="header-menu-wrap">
+      <div class="logo-text-button">
+        <div class="logo-wrap">
+          <a class="header-logo-links" href="./index.html">
+            <svg class="header-links-icons kub" width="16" height="16">
+              <use href="/img/symbol-defs.svg#icon-logo-vector"></use>
+            </svg>
+            <svg class="header-links-icons harv" width="148" height="12">
+              <use href="/img/symbol-defs.svg#icon-green-harvest"></use>
+            </svg>
+          </a>
+        </div>
+
+        <button type="button" class="open-menu-btn">
+          <svg class="header-menu-icon">
+            <use href="/img/symbol-defs.svg#menu-open-icon"></use>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="header-navigation">
+        <ul class="header-nav">
+          <li class="header-nav-item header-nav-page">
+            <a
+              class="header-nav-link header-nav-page"
+              href="#how-it-works-section"
+              >How It Works</a
+            >
+          </li>
+          <li class="header-nav-item two">
+            <a class="header-nav-link" href="#vegetables-section">Vegetables</a>
+          </li>
+          <li class="header-nav-item tree">
+            <a class="header-nav-link" href="#reviews-section">Reviews</a>
+          </li>
+        </ul>
+        <button type="button" class="header-shop-button">Shop now</button>
+      </nav>
     </div>
-    <button type="button" class="open-menu-btn">
-      <svg width="21" height="16">
-        <use href="/img/symbol-defs.svg#mob-menu-mobile-icon"></use>
-      </svg>
-    </button>
   </div>
-  <nav>
-    <div class="navig">
-      <ul class="nav">
-        <li class="nav-item nav-page">
-          <a class="nav-link nav-page" href="./how-it-works.html"
-            >How It Works</a
-          >
-        </li>
-        <li class="nav-item two">
-          <a class="nav-link" href="./vegetables.html">Vegetables</a>
-        </li>
-        <li class="nav-item tree">
-          <a class="nav-link" href="./rewiews.html">Reviews</a>
-        </li>
-      </ul>
-      <button type="button" class="shop-button">Shop now</button>
-    </div>
-  </nav>
 </header>

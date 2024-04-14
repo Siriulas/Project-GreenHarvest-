@@ -159,13 +159,11 @@
   background-color: #576f35;
 }
 
-
 .order-social-media:hover .order-social-img {
   transform: scale(1.1);
 }
 
 .order-social-media:hover .order-font {
-
   background-color: rgba(20, 20, 20, 0.1);
 }
 
@@ -235,7 +233,7 @@
 
 @media screen and (min-width: 768px) {
   .your-order {
-    padding: 100px 12px;
+    padding: 100px 0;
   }
 
   .order-subtitle {
