@@ -24,7 +24,14 @@
   padding: 0 10px;
   display: block;
   margin: 0 -10px 0 -10px;
+	animation: rainbow 2s linear 2s infinite;
 }
+
+@keyframes rainbow {
+	0% {background: #576f35;}
+	50% {background: #87b645}
+	100% {background: #5a7930;}
+} 
 
 .advertisement-text {
   max-width: 375px;
