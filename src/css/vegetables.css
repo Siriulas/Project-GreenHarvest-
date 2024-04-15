@@ -47,6 +47,11 @@
   margin-bottom: 14px;
 }
 
+.vegetables-item-pictures {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   .vegetables-title {
     max-width: 508px;
