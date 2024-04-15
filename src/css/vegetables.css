@@ -52,6 +52,13 @@
   height: auto;
 }
 
+@media screen and (min-width: 375px) {
+  .vegetables-item-pictures {
+    width: 282px;
+    height: 243px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .vegetables-title {
     max-width: 508px;
