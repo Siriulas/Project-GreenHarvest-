@@ -38,6 +38,7 @@
 
 .hero-image-wrap {
   position: relative;
+  max-width: 375px;
 }
 
 .hero-image-wrap::after {
