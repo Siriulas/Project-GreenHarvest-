@@ -65,6 +65,18 @@
   transition: transform 1s cubic-bezier(.49,.25,.39,.98);
 }
 
+.vegetables-item-pictures {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .vegetables-item-pictures {
+    width: 282px;
+    height: 243px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .vegetables-title {
     max-width: 508px;
