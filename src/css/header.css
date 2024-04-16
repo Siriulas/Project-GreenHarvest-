@@ -149,7 +149,6 @@
   }
 
   .header-shop-button {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,46 +171,43 @@
   .header-shop-button:hover .shop-basket {
     position: relative;
     opacity: 1;
-      transform-origin: top center;
-      animation-name: sale;
-      animation-duration: 1s;
-      animation-fill-mode: both;
+    transform-origin: top center;
+    animation-name: sale;
+    animation-duration: 1s;
+    animation-fill-mode: both;
   }
 
   @keyframes sale {
     20% {
-        transform: rotate3d(0, 0, 1, 15deg);
+      transform: rotate3d(0, 0, 1, 15deg);
     }
     40% {
-        transform: rotate3d(0, 0, 1, -10deg);
+      transform: rotate3d(0, 0, 1, -10deg);
     }
     60% {
-        transform: rotate3d(0, 0, 1, 5deg);
+      transform: rotate3d(0, 0, 1, 5deg);
     }
     70% {
-        transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0.1deg);
     }
     80% {
-        transform: rotate3d(0, 0, 1, -5deg);
+      transform: rotate3d(0, 0, 1, -5deg);
     }
     90% {
-        transform: rotate3d(0, 0, 1, -3deg);
+      transform: rotate3d(0, 0, 1, -3deg);
     }
     100% {
-        transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0.1deg);
     }
-}
+  }
 
   .header-shop-button:hover .basket-wrap {
     display: block;
   }
-
 
   .shop-basket {
     fill: #fbfbfb;
     position: absolute;
     opacity: 0;
   }
-
-
 }
