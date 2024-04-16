@@ -15,6 +15,10 @@
   padding: 40px 0;
 }
 
+.how-img {
+  width: 100%;
+}
+
 .how-img-wrap {
   position: relative;
   width: calc(100% - 40px);
