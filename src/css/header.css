@@ -134,7 +134,7 @@
 
   .header-nav-item:hover {
     border: 1px solid rgba(251, 251, 251, 1);
-    background-color: rgba(251, 251, 251, 0.2);
+    background-color: rgba(251, 251, 251, 0.1);
   }
 
   .open-menu-btn {
