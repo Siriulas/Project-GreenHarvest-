@@ -47,7 +47,8 @@
 
         <button
           type="button"
-          id="menu-open-button"
+          id="menu-open-btn"
+          aria-label="Menu open button"
           class="open-menu-btn js-open-menu"
         >
           <svg class="header-menu-icon">
@@ -408,7 +409,7 @@
         </p>
 
         <form class="order-form">
-          <div class="order-label-wrap">
+          <div class="order-label-wrap" aria-label="Write your Full name">
             <label class="order-label">
               <input
                 class="order-input"
@@ -420,7 +421,7 @@
           </div>
 
           <div class="order-label-wrap">
-            <label class="order-label">
+            <label class="order-label" aria-label="Write your email">
               <input
                 class="order-input"
                 type="email"
@@ -433,7 +434,7 @@
           </div>
 
           <div class="order-comment-wrap">
-            <label class="order-label">
+            <label class="order-label" aria-label="Write your Comment">
               <textarea
                 class="order-comment"
                 name="user-comment"
@@ -442,7 +443,13 @@
             </label>
           </div>
 
-          <button class="order-btn" type="submit">Send</button>
+          <button
+            aria-label="Send your information"
+            class="order-btn"
+            type="submit"
+          >
+            Send
+          </button>
         </form>
       </div>
 
@@ -557,7 +564,8 @@
     <div class="back-menu js-menu-container">
   <div class="modal-menu">
     <button
-      id="menu-close-button"
+      aria-label="Menu close button"
+      id="menu-close-btn"
       class="menu-close js-close-menu"
       type="button"
     >
