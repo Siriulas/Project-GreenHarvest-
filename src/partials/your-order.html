@@ -21,7 +21,7 @@
         </p>
 
         <form class="order-form">
-          <div class="order-label-wrap">
+          <div class="order-label-wrap" aria-label="Write your Full name">
             <label class="order-label">
               <input
                 class="order-input"
@@ -33,7 +33,7 @@
           </div>
 
           <div class="order-label-wrap">
-            <label class="order-label">
+            <label class="order-label" aria-label="Write your email">
               <input
                 class="order-input"
                 type="email"
@@ -46,7 +46,7 @@
           </div>
 
           <div class="order-comment-wrap">
-            <label class="order-label">
+            <label class="order-label" aria-label="Write your Comment">
               <textarea
                 class="order-comment"
                 name="user-comment"
@@ -55,7 +55,13 @@
             </label>
           </div>
 
-          <button class="order-btn" type="submit">Send</button>
+          <button
+            aria-label="Send your information"
+            class="order-btn"
+            type="submit"
+          >
+            Send
+          </button>
         </form>
       </div>
 
